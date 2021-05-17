@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Minority-Programmers-Front-End-Test/static/css/main.575dea48.chunk.css",
+    "main.js": "/Minority-Programmers-Front-End-Test/static/js/main.ae4ede83.chunk.js",
+    "main.js.map": "/Minority-Programmers-Front-End-Test/static/js/main.ae4ede83.chunk.js.map",
+    "runtime-main.js": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.e85d98cb.js",
+    "runtime-main.js.map": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.e85d98cb.js.map",
+    "static/css/2.15a7a700.chunk.css": "/Minority-Programmers-Front-End-Test/static/css/2.15a7a700.chunk.css",
+    "static/js/2.2dedd3af.chunk.js": "/Minority-Programmers-Front-End-Test/static/js/2.2dedd3af.chunk.js",
+    "static/js/2.2dedd3af.chunk.js.map": "/Minority-Programmers-Front-End-Test/static/js/2.2dedd3af.chunk.js.map",
+    "index.html": "/Minority-Programmers-Front-End-Test/index.html",
+    "static/css/2.15a7a700.chunk.css.map": "/Minority-Programmers-Front-End-Test/static/css/2.15a7a700.chunk.css.map",
+    "static/css/main.575dea48.chunk.css.map": "/Minority-Programmers-Front-End-Test/static/css/main.575dea48.chunk.css.map",
+    "static/js/2.2dedd3af.chunk.js.LICENSE.txt": "/Minority-Programmers-Front-End-Test/static/js/2.2dedd3af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e85d98cb.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.2dedd3af.chunk.js",
+    "static/css/main.575dea48.chunk.css",
+    "static/js/main.ae4ede83.chunk.js"
+  ]
+}
