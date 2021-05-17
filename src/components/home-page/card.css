@@ -1,0 +1,69 @@
+.mango-card {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 5vh;
+    color:black;
+    margin-left: 15px;
+}
+
+.mangoswap-image {
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.mangoswap-title {
+    margin-top: 17%;
+    font-size: 20px;
+    vertical-align: baseline;
+}
+
+.funds, .progress {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.progress-bar {
+    background-image:linear-gradient(90deg, #ff54c6 2.65%, #ff8a95 51.83%, #ffc460 100%) !important;;
+}
+
+.btn-mango-one {
+    background: #141471;
+    font-weight: bold;
+    border:solid;
+    border-color: #141471;
+}
+
+.btn-mango-one:focus {
+    border:none;
+    background: #141471;
+}
+
+.btn-mango-one:hover, .btn-mango-two:hover {
+    background: #ffc700;
+    color: black;
+    border:solid;
+    border-color: #ffc700;
+}
+
+.btn-mango-two {
+    background: #fff;
+    color: #141471;
+    border:solid;
+    border-color: #141471;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-mango-two:focus {
+    background: none;
+    color: #141471;
+    border:solid;
+    border-color: #141471;
+}
+
+.row {
+    flex-wrap: nowrap;
+}

@@ -1,0 +1,260 @@
+.startup-container {
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 0.4fr 1.2fr;
+    grid-template-rows: 0.25fr 1fr 0.5fr;
+    grid-template-areas: 
+    "top-bar top-bar"
+    "side-bar body-container"
+    "side-bar bottom-bar";
+    grid-gap: 0.7rem;
+}
+
+.top-bar {
+    background-color:#fff;
+    grid-area: top-bar;
+    margin-top:2rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.body-container {
+    background-color:#fff;
+    grid-area: body-container;
+}
+
+.side-bar {
+    background-color:#fff;
+    grid-area: side-bar;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.bottom-bar {
+    background-color:#fff;
+    grid-area: bottom-bar;
+    height: 220px;
+    margin-bottom: 50px;
+}
+
+.fa-arrow-alt-circle-left {
+    color: black;
+    margin-left: 1rem;
+}
+
+.image-logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.mangoswap-image-startup {
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.startup-title {
+    font-weight:bolder;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.progress-funds-container {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.funds-title {
+    font-weight: bolder;
+    font-size: 15px;
+    float: left;
+}
+
+.funds-amount {
+    font-size: 18px;
+}
+
+.progress-title {
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 20px;
+    float: right;
+}
+
+.progress-and-button {
+    display: flex;
+}
+
+.progress-startup {
+    margin-left: 30px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 30px;
+}
+
+.progress-bar-startup {
+    height: 20px;
+    border-radius: 5px;
+    background-image:linear-gradient(90deg, #ff54c6 2.65%, #ff8a95 51.83%, #ffc460 100%) !important;;
+}
+
+.button-startup {
+    position: relative;
+}
+
+.body-container-title {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top:20px
+}
+
+.body-container-about {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.side-bar-date {
+    margin:20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.side-bar-titles {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.side-bar-website {
+    margin-left: 20px;
+    color: rgb(0, 123, 255);
+    margin-bottom: 15px;
+}
+
+.side-bar-location-employees {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.side-bar-date-team {
+    display: flex;
+    margin-left: 40px;
+}
+
+.side-bar-person {
+    color: rgb(0, 123, 255);
+}
+
+.side-bar-date-team-space {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.fa-3x {
+    color: gray;
+}
+
+.side-bar-tags {
+    display: flex;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.side-bar-tag {
+    margin-left: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 4px;
+    border-color: lightgray;
+}
+
+.bottom-bar-card {
+    display: -webkit-box;
+    overflow-x: hidden;
+    overflow: scroll;
+    flex-direction: row;
+    width: 50vw;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.bottom-bar-card::-webkit-scrollbar {
+    display: none;
+  }
+
+.side-bar-related-title{
+    margin:20px;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+@media only screen and (max-width: 993px) {
+    .progress-funds-container {
+        margin-left: 2px;
+    }
+    .progress-startup {
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .startup-container {
+        grid-template-columns: 500px;
+        grid-template-rows: 0.25fr 1fr 0.5fr 0.5fr;
+        grid-template-areas: 
+        "top-bar"
+        "body-container"
+        "side-bar"
+        "bottom-bar";
+    }
+
+    .top-bar {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-arrow-alt-circle-left {
+        display: none;
+    }
+
+    .image-logo-name {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .progress-funds-container {
+        margin-left: 0;
+    }
+
+    .progress-and-button {
+        margin-right: 20px;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .progress-funds-container {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .startup-container {
+        grid-template-columns: 450px;
+    }
+}

@@ -1,0 +1,66 @@
+.bottom-bar-cards {
+    display: flex;
+    margin-left: 20px;
+    background-color: rgb(244, 244, 244);
+    width: 270px;
+    height:150px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.related-card-container {
+    margin:10px;
+}
+
+.related-image-title {
+    display: flex;
+    align-items: center;
+}
+
+.related-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    background-color: gray;
+    margin-right: 10px;
+}
+
+.related-title {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.related-funds-percent {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.related-percent {
+    float: right;
+}
+
+.related-funds-title {
+    font-size: 15px;
+}
+
+.related-percent {
+    margin-left:45px;
+    font-size: 12px;
+}
+
+.related-amount {
+    font-weight: bolder;
+}
+
+.related-progress-bar {
+    background-image:linear-gradient(90deg, #ff54c6 2.65%, #ff8a95 51.83%, #ffc460 100%) !important;;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.related-progress {
+    margin-top: 5px;
+}

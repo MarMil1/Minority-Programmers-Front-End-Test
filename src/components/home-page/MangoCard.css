@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+}
+
+.main-container {
+    width: fit-content;
+    content-visibility: auto;
+    overflow-x: hidden;
+    margin-right: 10px;
+    overflow: scroll;
+}
+
+.main-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.container {
+    height: 100%;
+}
+
+.fas {
+    color: rgba(255, 255, 255, 0.454);
+    cursor: pointer;
+}
+
+.fa-arrow-circle-left {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.fa-arrow-circle-right {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+} 
